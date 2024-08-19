@@ -15,6 +15,8 @@
 
 香港中文大学（深圳）下属深圳人工智能与机器人研究员科研助理
 
+香港中文大学（深圳） 计算机与信息工程博士生
+
 # 相关链接
 
 谷歌学术个人档案：[陈基伟](https://scholar.google.com/citations?user=Sls8Yg4AAAAJ&hl=zh-CN)
