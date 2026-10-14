@@ -20,12 +20,12 @@
   <div class="nav-inner">
     <a class="nav-brand" href="#top">陈基伟</a>
     <div class="nav-links">
-      <a href="#education">教育</a>
-      <a href="#research">研究方向</a>
+      <a href="#news">动态</a>
       <a href="#publications">论文</a>
-      <a href="#patents">专利</a>
+      <a href="#research">研究</a>
       <a href="#projects">项目</a>
       <a href="#teaching">教学</a>
+      <a href="#patents">专利</a>
       <a href="#honors">荣誉</a>
       <a href="en/">English</a>
     </div>
@@ -64,8 +64,18 @@
     <p>
       主要研究方向为图像压缩感知重建、自动驾驶场景下的三维目标检测与视觉-语言-动作（VLA）模型。
       相关成果发表于 Pattern Recognition、IEEE TIP、IEEE TMM、ECCV、IROS 等期刊与会议，并拥有多项授权与公开专利。
-      现阶段聚焦面向开放道路的开放世界三维目标检测，以及驾驶场景中异常工况的目标检测与场景语义理解。
+      现阶段聚焦面向开放道路的开放世界三维目标检测，以及驾驶场景中异常工况的目标检测与场景语义理解。欢迎学术合作与交流。
     </p>
+  </section>
+
+  <section id="news">
+    <h2>最新动态</h2>
+    <ul class="news-list">
+      <li><span class="news-date">2026.04</span><span>启动与福瑞泰克合作的横向项目「前沿 VLA 算法的开发」，担任技术负责人，负责算法架构、训练与仿真验证。</span></li>
+      <li><span class="news-date">2026 秋</span><span>将担任 <strong>AIE1903: AI Exploration III</strong> 助教，参与自动驾驶算法相关课程的开发与教学。</span></li>
+      <li><span class="news-date">2025</span><span>论文 <a href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">ROA-BEV</a> 与 <a href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">Self-ToF</a> 被 IROS 2025 接收。</span></li>
+      <li><span class="news-date">2023.01</span><span>参与深圳市重点自然科学基金项目「汽车智能感知系统研究」，负责道路环境变更异常识别，项目于 2025.12 结题。</span></li>
+    </ul>
   </section>
 
   <section id="education">
@@ -109,78 +119,105 @@
   <section id="publications">
     <h2>论文发表</h2>
 
-    <h3 class="group">图像压缩感知重建</h3>
-    <ol class="pub-list">
-      <li>
-        Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu*, Guangcan Liu.
-        <em><a href="https://doi.org/10.1016/j.patcog.2019.107051" target="_blank" rel="noopener">Learning image compressed sensing with sub-pixel convolutional generative adversarial network.</a></em>
-        Pattern Recognition (PR), 2020, 98: 107051.
-      </li>
-      <li>
-        Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu*, Bo Liu, Guodong Guo.
-        <em><a href="https://doi.org/10.1109/tip.2020.3023629" target="_blank" rel="noopener">Dual-path Attention Network for Compressed Sensing Image Reconstruction.</a></em>
-        IEEE Transactions on Image Processing (TIP).
-      </li>
-      <li>
-        <strong>Jiwei Chen</strong>, Yubao Sun*, Qingshan Liu, Rui Huang.
-        <em><a href="https://doi.org/10.1007/978-3-030-58542-6_31" target="_blank" rel="noopener">Learning Memory Augmented Cascading Network for Compressed Sensing of Images.</a></em>
-        European Conference on Computer Vision (ECCV), 2020.
-      </li>
-      <li>
-        Yubao Sun, Ying Yang, Qingshan Liu*, <strong>Jiwei Chen</strong>.
-        <em><a href="https://doi.org/10.1109/tmm.2020.2973862" target="_blank" rel="noopener">Learning Non-local Regularized Compressed Sensing Network with Half-quadratic Splitting.</a></em>
-        IEEE Transactions on Multimedia (TMM), 2020.
-      </li>
-    </ol>
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">
+        <img src="images/papers/roabev.jpg" alt="ROA-BEV">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">ROA-BEV: 2D Region-Oriented Attention for BEV-based 3D Object Detection</a></h3>
+        <p class="authors"><strong>Jiwei Chen</strong>, Yubao Sun, Laiyan Ding, Rui Huang*</p>
+        <p class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/DFLyan/ROA-BEV" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+    </article>
 
-    <h3 class="group">三维目标检测与深度估计</h3>
-    <ol class="pub-list">
-      <li>
-        <strong>Jiwei Chen</strong>, Yubao Sun, Laiyan Ding, Rui Huang*.
-        <em><a href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">ROA-BEV: 2D Region-Oriented Attention for BEV-based 3D Object Detection.</a></em>
-        IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.
-      </li>
-      <li>
-        Laiyan Ding, Hualie Jiang, <strong>Jiwei Chen</strong>, Rui Huang*.
-        <em><a href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">Self-Supervised Enhancement for Depth from a Lightweight ToF Sensor with Monocular Images.</a></em>
-        IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.
-      </li>
-    </ol>
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">
+        <img src="images/papers/selftof.jpg" alt="Self-ToF">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">Self-Supervised Enhancement for Depth from a Lightweight ToF Sensor with Monocular Images</a></h3>
+        <p class="authors">Laiyan Ding, Hualie Jiang, <strong>Jiwei Chen</strong>, Rui Huang*</p>
+        <p class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/denyingmxd/selftof" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+    </article>
 
-    <h3 class="group">预印 / 在投</h3>
-    <ol class="pub-list">
-      <li>
-        Yubao Sun*, Jiawei Huang, Shun Jin, <strong>Jiwei Chen</strong>, Hui Shuai.
-        <em>Physics-Guided Diffusion with Homogeneous Distance Fields for Hand-Object Interaction Generation.</em>
-        投递至 IEEE Transactions on Human-Machine Systems.
-      </li>
-    </ol>
-  </section>
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1016/j.patcog.2019.107051" target="_blank" rel="noopener">
+        <img src="images/papers/scgan.jpg" alt="SCGAN">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1016/j.patcog.2019.107051" target="_blank" rel="noopener">Learning Image Compressed Sensing with Sub-Pixel Convolutional Generative Adversarial Network</a></h3>
+        <p class="authors">Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu*, Guangcan Liu</p>
+        <p class="venue">Pattern Recognition (PR), 2020, 98: 107051</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1016/j.patcog.2019.107051" target="_blank" rel="noopener">Paper</a>
+        </p>
+      </div>
+    </article>
 
-  <section id="patents">
-    <h2>专利</h2>
-    <ul class="plain-list">
-      <li>孙玉宝、徐宏伟、刘青山、<strong>陈基伟</strong>、陈逸。一种超图卷积网络模型及其半监督分类方法。<span class="num">公开号 CN109492691A</span></li>
-      <li>孙玉宝、杨莹、<strong>陈基伟</strong>、刘青山。一种基于非局部正则的压缩感知网络图像重建方法。<span class="num">授权号 CN110728728B</span></li>
-      <li>杭仁龙、刘青山、<strong>陈基伟</strong>、王素娟。一种高光谱图像分类方法。<span class="num">公开号 CN108182449A</span></li>
-      <li>孙玉宝、<strong>陈基伟</strong>、刘青山、徐宏伟。一种基于生成对抗网络的压缩感知图像重建方法及系统。<span class="num">授权号 CN109544656B</span></li>
-      <li>孙玉宝、陈逸、刘青山、<strong>陈基伟</strong>。一种基于标签约束弹性网图模型的高光谱图像分类方法。<span class="num">授权号 CN110399909B</span></li>
-      <li>孙玉宝、陈春芳、徐宏伟、<strong>陈基伟</strong>。基于残差双注意力深度网络的 CT 图像肾脏分割算法。<span class="num">公开号 CN110675406A</span></li>
-      <li>黄锐、蒋华烈、<strong>陈基伟</strong>、丁来言。一种室内空间深度估计方法、装置、设备及存储介质。<span class="num">授权号 CN113516698B</span></li>
-      <li>黄锐、<strong>陈基伟</strong>、李俊良、陈勇全、许振兴。一种开放世界三维目标检测方法及装置。<span class="num">公开号 CN122368977A</span></li>
-    </ul>
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1109/tip.2020.3023629" target="_blank" rel="noopener">
+        <img src="images/papers/dpnet.jpg" alt="DPA-Net">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1109/tip.2020.3023629" target="_blank" rel="noopener">Dual-Path Attention Network for Compressed Sensing Image Reconstruction</a></h3>
+        <p class="authors">Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu*, Bo Liu, Guodong Guo</p>
+        <p class="venue">IEEE Transactions on Image Processing (TIP), 2020</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1109/tip.2020.3023629" target="_blank" rel="noopener">Paper</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1007/978-3-030-58542-6_31" target="_blank" rel="noopener">
+        <img src="images/papers/macnet.jpg" alt="MAC-Net">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1007/978-3-030-58542-6_31" target="_blank" rel="noopener">Learning Memory Augmented Cascading Network for Compressed Sensing of Images</a></h3>
+        <p class="authors"><strong>Jiwei Chen</strong>, Yubao Sun*, Qingshan Liu, Rui Huang</p>
+        <p class="venue">European Conference on Computer Vision (ECCV), 2020</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1007/978-3-030-58542-6_31" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/DFLyan/MAC-Net" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1109/tmm.2020.2973862" target="_blank" rel="noopener">
+        <img src="images/papers/nlr.jpg" alt="NLR-CSNet">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1109/tmm.2020.2973862" target="_blank" rel="noopener">Learning Non-Locally Regularized Compressed Sensing Network with Half-Quadratic Splitting</a></h3>
+        <p class="authors">Yubao Sun, Ying Yang, Qingshan Liu*, <strong>Jiwei Chen</strong></p>
+        <p class="venue">IEEE Transactions on Multimedia (TMM), 2020</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1109/tmm.2020.2973862" target="_blank" rel="noopener">Paper</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub-thumb pub-thumb--empty"><span>Under Review</span></div>
+      <div class="pub-body">
+        <h3>Physics-Guided Diffusion with Homogeneous Distance Fields for Hand-Object Interaction Generation</h3>
+        <p class="authors">Yubao Sun*, Jiawei Huang, Shun Jin, <strong>Jiwei Chen</strong>, Hui Shuai</p>
+        <p class="venue">Under review at IEEE Transactions on Human-Machine Systems</p>
+      </div>
+    </article>
   </section>
 
   <section id="projects">
     <h2>项目经历</h2>
-    <div class="project">
-      <div class="project-head">
-        <h3>汽车智能感知系统研究</h3>
-        <span class="period">2023.01 – 2025.12</span>
-      </div>
-      <p class="meta">深圳市重点自然科学基金（已完结） · 部分技术实现者</p>
-      <p>研究道路环境变更异常识别，完成算法实现与可视化，达到项目对应指标。</p>
-    </div>
     <div class="project">
       <div class="project-head">
         <h3>前沿 VLA 算法的开发</h3>
@@ -188,10 +225,18 @@
       </div>
       <p class="meta">企业横向（进行中） · 乙方技术总领者与主要实施人</p>
       <p>
-        与福瑞泰克合作的横向项目，作为项目主要技术负责人，负责算法架构搭建与训练，
+        与福瑞泰克合作的横向项目。作为项目主要技术负责人，负责算法架构搭建与训练，
         涵盖数据标注闭环验证、模型训练加速、仿真环境验证与强化学习训练，
         并推动算法与企业的落地部署，同时提炼问题以支持后续论文发表。
       </p>
+    </div>
+    <div class="project">
+      <div class="project-head">
+        <h3>汽车智能感知系统研究</h3>
+        <span class="period">2023.01 – 2025.12</span>
+      </div>
+      <p class="meta">深圳市重点自然科学基金（已完结） · 部分技术实现者</p>
+      <p>研究道路环境变更异常识别，完成算法实现与可视化，达到项目对应指标。</p>
     </div>
   </section>
 
@@ -208,6 +253,20 @@
         <span class="what"><strong>AIE1903: AI Exploration III</strong> · 助教</span>
         <span class="detail">介绍自动驾驶算法发展历程，参与课程大纲与教学内容制定、课程代码讲解、考试试卷评分、学生 project 指导与打分等。</span>
       </li>
+    </ul>
+  </section>
+
+  <section id="patents">
+    <h2>专利</h2>
+    <ul class="plain-list">
+      <li>孙玉宝、徐宏伟、刘青山、<strong>陈基伟</strong>、陈逸。一种超图卷积网络模型及其半监督分类方法。<span class="num">公开号 CN109492691A</span></li>
+      <li>孙玉宝、杨莹、<strong>陈基伟</strong>、刘青山。一种基于非局部正则的压缩感知网络图像重建方法。<span class="num">授权号 CN110728728B</span></li>
+      <li>杭仁龙、刘青山、<strong>陈基伟</strong>、王素娟。一种高光谱图像分类方法。<span class="num">公开号 CN108182449A</span></li>
+      <li>孙玉宝、<strong>陈基伟</strong>、刘青山、徐宏伟。一种基于生成对抗网络的压缩感知图像重建方法及系统。<span class="num">授权号 CN109544656B</span></li>
+      <li>孙玉宝、陈逸、刘青山、<strong>陈基伟</strong>。一种基于标签约束弹性网图模型的高光谱图像分类方法。<span class="num">授权号 CN110399909B</span></li>
+      <li>孙玉宝、陈春芳、徐宏伟、<strong>陈基伟</strong>。基于残差双注意力深度网络的 CT 图像肾脏分割算法。<span class="num">公开号 CN110675406A</span></li>
+      <li>黄锐、蒋华烈、<strong>陈基伟</strong>、丁来言。一种室内空间深度估计方法、装置、设备及存储介质。<span class="num">授权号 CN113516698B</span></li>
+      <li>黄锐、<strong>陈基伟</strong>、李俊良、陈勇全、许振兴。一种开放世界三维目标检测方法及装置。<span class="num">公开号 CN122368977A</span></li>
     </ul>
   </section>
 

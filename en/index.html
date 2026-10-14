@@ -20,12 +20,12 @@
   <div class="nav-inner">
     <a class="nav-brand" href="#top">Jiwei Chen</a>
     <div class="nav-links">
-      <a href="#education">Education</a>
-      <a href="#research">Research</a>
+      <a href="#news">News</a>
       <a href="#publications">Publications</a>
-      <a href="#patents">Patents</a>
+      <a href="#research">Research</a>
       <a href="#projects">Projects</a>
       <a href="#teaching">Teaching</a>
+      <a href="#patents">Patents</a>
       <a href="#honors">Honors</a>
       <a href="../">中文</a>
     </div>
@@ -68,8 +68,18 @@
       and vision-language-action (VLA) models for driving. His work has been published in Pattern Recognition, IEEE TIP,
       IEEE TMM, ECCV, and IROS, and he holds several authorized and published patents. His current work focuses on
       open-world 3D object detection for open roads, and on detecting abnormal-condition objects and understanding scene
-      semantics in driving scenarios.
+      semantics in driving scenarios. He is open to academic collaborations and research discussions.
     </p>
+  </section>
+
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li><span class="news-date">2026.04</span><span>Started the industrial project <em>Development of Frontier VLA Algorithms</em> with Freetech, serving as the technical lead for architecture, training, and simulation validation.</span></li>
+      <li><span class="news-date">Fall 2026</span><span>Will serve as a teaching assistant for <strong>AIE1903: AI Exploration III</strong>, contributing to course design and teaching on autonomous driving algorithms.</span></li>
+      <li><span class="news-date">2025</span><span>Two papers, <a href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">ROA-BEV</a> and <a href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">Self-ToF</a>, were accepted to IROS 2025.</span></li>
+      <li><span class="news-date">2023.01</span><span>Joined the Shenzhen Key Natural Science Foundation project <em>Intelligent Perception System for Automobiles</em>, working on anomaly recognition of road environment changes; the project concluded in 2025.12.</span></li>
+    </ul>
   </section>
 
   <section id="education">
@@ -113,78 +123,105 @@
   <section id="publications">
     <h2>Publications</h2>
 
-    <h3 class="group">Compressed Sensing Image Reconstruction</h3>
-    <ol class="pub-list">
-      <li>
-        Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu*, Guangcan Liu.
-        <em><a href="https://doi.org/10.1016/j.patcog.2019.107051" target="_blank" rel="noopener">Learning image compressed sensing with sub-pixel convolutional generative adversarial network.</a></em>
-        Pattern Recognition (PR), 2020, 98: 107051.
-      </li>
-      <li>
-        Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu*, Bo Liu, Guodong Guo.
-        <em><a href="https://doi.org/10.1109/tip.2020.3023629" target="_blank" rel="noopener">Dual-path Attention Network for Compressed Sensing Image Reconstruction.</a></em>
-        IEEE Transactions on Image Processing (TIP).
-      </li>
-      <li>
-        <strong>Jiwei Chen</strong>, Yubao Sun*, Qingshan Liu, Rui Huang.
-        <em><a href="https://doi.org/10.1007/978-3-030-58542-6_31" target="_blank" rel="noopener">Learning Memory Augmented Cascading Network for Compressed Sensing of Images.</a></em>
-        European Conference on Computer Vision (ECCV), 2020.
-      </li>
-      <li>
-        Yubao Sun, Ying Yang, Qingshan Liu*, <strong>Jiwei Chen</strong>.
-        <em><a href="https://doi.org/10.1109/tmm.2020.2973862" target="_blank" rel="noopener">Learning Non-local Regularized Compressed Sensing Network with Half-quadratic Splitting.</a></em>
-        IEEE Transactions on Multimedia (TMM), 2020.
-      </li>
-    </ol>
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">
+        <img src="../images/papers/roabev.jpg" alt="ROA-BEV">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">ROA-BEV: 2D Region-Oriented Attention for BEV-based 3D Object Detection</a></h3>
+        <p class="authors"><strong>Jiwei Chen</strong>, Yubao Sun, Laiyan Ding, Rui Huang*</p>
+        <p class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/DFLyan/ROA-BEV" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+    </article>
 
-    <h3 class="group">3D Object Detection &amp; Depth Estimation</h3>
-    <ol class="pub-list">
-      <li>
-        <strong>Jiwei Chen</strong>, Yubao Sun, Laiyan Ding, Rui Huang*.
-        <em><a href="https://doi.org/10.1109/iros60139.2025.11246011" target="_blank" rel="noopener">ROA-BEV: 2D Region-Oriented Attention for BEV-based 3D Object Detection.</a></em>
-        IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.
-      </li>
-      <li>
-        Laiyan Ding, Hualie Jiang, <strong>Jiwei Chen</strong>, Rui Huang*.
-        <em><a href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">Self-Supervised Enhancement for Depth from a Lightweight ToF Sensor with Monocular Images.</a></em>
-        IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025.
-      </li>
-    </ol>
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">
+        <img src="../images/papers/selftof.jpg" alt="Self-ToF">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">Self-Supervised Enhancement for Depth from a Lightweight ToF Sensor with Monocular Images</a></h3>
+        <p class="authors">Laiyan Ding, Hualie Jiang, <strong>Jiwei Chen</strong>, Rui Huang*</p>
+        <p class="venue">IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1109/iros60139.2025.11246529" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/denyingmxd/selftof" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+    </article>
 
-    <h3 class="group">Preprints / Under Review</h3>
-    <ol class="pub-list">
-      <li>
-        Yubao Sun*, Jiawei Huang, Shun Jin, <strong>Jiwei Chen</strong>, Hui Shuai.
-        <em>Physics-Guided Diffusion with Homogeneous Distance Fields for Hand-Object Interaction Generation.</em>
-        Submitted to IEEE Transactions on Human-Machine Systems.
-      </li>
-    </ol>
-  </section>
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1016/j.patcog.2019.107051" target="_blank" rel="noopener">
+        <img src="../images/papers/scgan.jpg" alt="SCGAN">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1016/j.patcog.2019.107051" target="_blank" rel="noopener">Learning Image Compressed Sensing with Sub-Pixel Convolutional Generative Adversarial Network</a></h3>
+        <p class="authors">Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu*, Guangcan Liu</p>
+        <p class="venue">Pattern Recognition (PR), 2020, 98: 107051</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1016/j.patcog.2019.107051" target="_blank" rel="noopener">Paper</a>
+        </p>
+      </div>
+    </article>
 
-  <section id="patents">
-    <h2>Patents</h2>
-    <ul class="plain-list">
-      <li>Yubao Sun, Hongwei Xu, Qingshan Liu, <strong>Jiwei Chen</strong>, Yi Chen. A hypergraph convolutional network model and its semi-supervised classification method.<span class="num">CN109492691A</span></li>
-      <li>Yubao Sun, Ying Yang, <strong>Jiwei Chen</strong>, Qingshan Liu. A non-local-regularized compressed sensing network method for image reconstruction.<span class="num">CN110728728B</span></li>
-      <li>Renlong Hang, Qingshan Liu, <strong>Jiwei Chen</strong>, Sujuan Wang. A hyperspectral image classification method.<span class="num">CN108182449A</span></li>
-      <li>Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu, Hongwei Xu. A GAN-based method and system for compressed sensing image reconstruction.<span class="num">CN109544656B</span></li>
-      <li>Yubao Sun, Yi Chen, Qingshan Liu, <strong>Jiwei Chen</strong>. A hyperspectral image classification method based on a label-constrained elastic-net graph model.<span class="num">CN110399909B</span></li>
-      <li>Yubao Sun, Chunfang Chen, Hongwei Xu, <strong>Jiwei Chen</strong>. A residual dual-attention deep network for kidney segmentation in CT images.<span class="num">CN110675406A</span></li>
-      <li>Rui Huang, Hualie Jiang, <strong>Jiwei Chen</strong>, Laiyan Ding. An indoor spatial depth estimation method, device, equipment and storage medium.<span class="num">CN113516698B</span></li>
-      <li>Rui Huang, <strong>Jiwei Chen</strong>, Junliang Li, Yongquan Chen, Zhenxing Xu. An open-world 3D object detection method and device.<span class="num">CN122368977A</span></li>
-    </ul>
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1109/tip.2020.3023629" target="_blank" rel="noopener">
+        <img src="../images/papers/dpnet.jpg" alt="DPA-Net">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1109/tip.2020.3023629" target="_blank" rel="noopener">Dual-Path Attention Network for Compressed Sensing Image Reconstruction</a></h3>
+        <p class="authors">Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu*, Bo Liu, Guodong Guo</p>
+        <p class="venue">IEEE Transactions on Image Processing (TIP), 2020</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1109/tip.2020.3023629" target="_blank" rel="noopener">Paper</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1007/978-3-030-58542-6_31" target="_blank" rel="noopener">
+        <img src="../images/papers/macnet.jpg" alt="MAC-Net">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1007/978-3-030-58542-6_31" target="_blank" rel="noopener">Learning Memory Augmented Cascading Network for Compressed Sensing of Images</a></h3>
+        <p class="authors"><strong>Jiwei Chen</strong>, Yubao Sun*, Qingshan Liu, Rui Huang</p>
+        <p class="venue">European Conference on Computer Vision (ECCV), 2020</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1007/978-3-030-58542-6_31" target="_blank" rel="noopener">Paper</a>
+          <a href="https://github.com/DFLyan/MAC-Net" target="_blank" rel="noopener">Code</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <a class="pub-thumb" href="https://doi.org/10.1109/tmm.2020.2973862" target="_blank" rel="noopener">
+        <img src="../images/papers/nlr.jpg" alt="NLR-CSNet">
+      </a>
+      <div class="pub-body">
+        <h3><a href="https://doi.org/10.1109/tmm.2020.2973862" target="_blank" rel="noopener">Learning Non-Locally Regularized Compressed Sensing Network with Half-Quadratic Splitting</a></h3>
+        <p class="authors">Yubao Sun, Ying Yang, Qingshan Liu*, <strong>Jiwei Chen</strong></p>
+        <p class="venue">IEEE Transactions on Multimedia (TMM), 2020</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1109/tmm.2020.2973862" target="_blank" rel="noopener">Paper</a>
+        </p>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub-thumb pub-thumb--empty"><span>Under Review</span></div>
+      <div class="pub-body">
+        <h3>Physics-Guided Diffusion with Homogeneous Distance Fields for Hand-Object Interaction Generation</h3>
+        <p class="authors">Yubao Sun*, Jiawei Huang, Shun Jin, <strong>Jiwei Chen</strong>, Hui Shuai</p>
+        <p class="venue">Under review at IEEE Transactions on Human-Machine Systems</p>
+      </div>
+    </article>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project">
-      <div class="project-head">
-        <h3>Intelligent Perception System for Automobiles</h3>
-        <span class="period">2023.01 – 2025.12</span>
-      </div>
-      <p class="meta">Shenzhen Key Natural Science Foundation (Completed) · Technical contributor</p>
-      <p>Studied anomaly recognition for road environment changes, and implemented the algorithms and visualization, meeting the project's target metrics.</p>
-    </div>
     <div class="project">
       <div class="project-head">
         <h3>Development of Frontier VLA Algorithms</h3>
@@ -196,6 +233,14 @@
         the algorithms, covering data annotation closed loops, training acceleration, simulation-based validation, and reinforcement
         learning training, and driving deployment with the company while distilling problems for future publications.
       </p>
+    </div>
+    <div class="project">
+      <div class="project-head">
+        <h3>Intelligent Perception System for Automobiles</h3>
+        <span class="period">2023.01 – 2025.12</span>
+      </div>
+      <p class="meta">Shenzhen Key Natural Science Foundation (Completed) · Technical contributor</p>
+      <p>Studied anomaly recognition for road environment changes, and implemented the algorithms and visualization, meeting the project's target metrics.</p>
     </div>
   </section>
 
@@ -212,6 +257,20 @@
         <span class="what"><strong>AIE1903: AI Exploration III</strong> · Teaching Assistant</span>
         <span class="detail">Introducing the development of autonomous driving algorithms, participating in syllabus and content design, course code walkthroughs, exam grading, and supervision and grading of student projects.</span>
       </li>
+    </ul>
+  </section>
+
+  <section id="patents">
+    <h2>Patents</h2>
+    <ul class="plain-list">
+      <li>Yubao Sun, Hongwei Xu, Qingshan Liu, <strong>Jiwei Chen</strong>, Yi Chen. A hypergraph convolutional network model and its semi-supervised classification method.<span class="num">CN109492691A</span></li>
+      <li>Yubao Sun, Ying Yang, <strong>Jiwei Chen</strong>, Qingshan Liu. A non-local-regularized compressed sensing network method for image reconstruction.<span class="num">CN110728728B</span></li>
+      <li>Renlong Hang, Qingshan Liu, <strong>Jiwei Chen</strong>, Sujuan Wang. A hyperspectral image classification method.<span class="num">CN108182449A</span></li>
+      <li>Yubao Sun, <strong>Jiwei Chen</strong>, Qingshan Liu, Hongwei Xu. A GAN-based method and system for compressed sensing image reconstruction.<span class="num">CN109544656B</span></li>
+      <li>Yubao Sun, Yi Chen, Qingshan Liu, <strong>Jiwei Chen</strong>. A hyperspectral image classification method based on a label-constrained elastic-net graph model.<span class="num">CN110399909B</span></li>
+      <li>Yubao Sun, Chunfang Chen, Hongwei Xu, <strong>Jiwei Chen</strong>. A residual dual-attention deep network for kidney segmentation in CT images.<span class="num">CN110675406A</span></li>
+      <li>Rui Huang, Hualie Jiang, <strong>Jiwei Chen</strong>, Laiyan Ding. An indoor spatial depth estimation method, device, equipment and storage medium.<span class="num">CN113516698B</span></li>
+      <li>Rui Huang, <strong>Jiwei Chen</strong>, Junliang Li, Yongquan Chen, Zhenxing Xu. An open-world 3D object detection method and device.<span class="num">CN122368977A</span></li>
     </ul>
   </section>
 
